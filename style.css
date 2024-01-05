@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style: none;
+    background-color: darkblue;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+    display: block;
+    padding: 40px 40px;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 22px;
+
+}
+ul li ul.dropdown{
+    width: 150%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover{
+    background: darkgray;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+table, th, td {
+    border: 3px solid blue;
+    padding: 5px;
+    font-size: 25px;
+    background-color:azure;
+}
+footer{
+    background-color: darkblue;
+    color: aliceblue;
+    text-align: center;
+    font-size: 24px;
+}
